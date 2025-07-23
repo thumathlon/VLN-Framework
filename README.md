@@ -21,3 +21,15 @@ This framework introduces several modular enhancements designed to probe and imp
 👁️ **2. Tool-Augmented Perception Module**: Provides a "plug-and-play" interface for external vision tools like **Grounding SAM**. This allows the agent to perform instruction-driven visual searches, providing structured, verifiable evidence to the LLM.
 
 🤔 **3. Structured Reasoning & Prompt Engine**: A flexible prompt engineering engine that implements advanced strategies like **Forced Comprehensive Observation** and **MCP (Maximizing Core Prompt)** to guide the LLM's reasoning process and mitigate long-context issues.
+
+
+
+Citation
+This work is an extension and analysis of the MapGPT algorithm.
+Generated bibtex
+@article{huang2023mapgpt,
+  title={MapGPT: A Framework for LLM-based Embodied Navigation},
+  author={Huang, Lizi and Wang, Hongcheng and Chen, Yiting and Liu, Zeyi and Wang, Licheng and Yu, Zhou and Liu, Yang},
+  journal={arXiv preprint arXiv:2311.13217},
+  year={2023}
+}
