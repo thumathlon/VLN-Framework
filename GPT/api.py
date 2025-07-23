@@ -7,10 +7,10 @@ from tenacity import (
 )  # for exponential backoff
 
 
-generation_key = "sk-8PV1RH9TTlvS1tdoKtf5uuIKVrP5QICuALmYTF9ycX7Xgwkx"  #  key
+generation_key = ""  #  key
 client = OpenAI(
     api_key=generation_key,
-    base_url="https://poloai.top/v1"
+    
 )
 
 
